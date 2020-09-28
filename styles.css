@@ -1,0 +1,51 @@
+.card-title {
+    font-size: 30px;
+}
+
+.jumbotron{
+    margin-bottom: 0px;
+    background-image: url("Assets/covid-4948866_1280.jpg");
+    background-position: center;
+    height: 300px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 10px #000000;
+}
+
+.row{
+  
+    margin-bottom: auto;
+}
+
+.card{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+
+#death{
+  background-image: linear-gradient(rgb(41, 124, 117), rgb(25, 156, 117));
+  color: white;
+  font-size: 40px;
+}
+
+#cases{
+    background-image: linear-gradient(rgb(29, 49, 85), rgb(41, 124, 117));
+    color: white;
+    font-size: 40px;
+
+}
+
+#recover{
+    background-image: linear-gradient(rgb(25, 156, 117), rgb(33, 253, 70));
+    color: white;
+    font-size: 40px;
+}
+
+.card-body{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.19)
+}
