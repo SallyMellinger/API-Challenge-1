@@ -15,12 +15,12 @@ let url = 'https://api.covid19api.com/summary';
 
    //API Data Into Variables//
 
-   let newCases = json.Global.NewConfirmed;
-   let totalCases = json.Global.TotalConfirmed;
-   let newDeaths = json.Global.NewDeaths;
-   let totalDeaths = json.Global.TotalDeaths;
-   let newRecover = json.Global.NewRecovered;
-   let totalRecover = json.Global.TotalRecovered
+   let newCases = json.Global.NewConfirmed.toLocaleString('en');
+   let totalCases = json.Global.TotalConfirmed.toLocaleString('en');
+   let newDeaths = json.Global.NewDeaths.toLocaleString('en');
+   let totalDeaths = json.Global.TotalDeaths.toLocaleString('en');
+   let newRecover = json.Global.NewRecovered.toLocaleString('en');
+   let totalRecover = json.Global.TotalRecovered.toLocaleString('en');
 
    
 
